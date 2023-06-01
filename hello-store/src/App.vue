@@ -12,6 +12,15 @@ export default {
   name: 'App',
   components: {
     HelloWorld
+  },
+  created() {
+    const coldBrew = process.env.VUE_APP_COFFEE
+    console.log(coldBrew)
+    console.log(process.env)
+  },
+  mounted() {
+    // eslint-disable-next-line
+    console.log(DEON001)
   }
 }
 </script>
