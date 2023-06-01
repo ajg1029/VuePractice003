@@ -12,6 +12,13 @@ export default {
   name: 'App',
   components: {
     HelloWorld
+  },
+  created() {
+    console.log(process.env.VUE_APP_ARTIST)
+    // eslint-disable-next-line
+    console.log(myName)
+    // eslint-disable-next-line
+    console.log(myMessage)
   }
 }
 </script>
