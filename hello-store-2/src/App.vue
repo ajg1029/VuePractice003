@@ -30,6 +30,8 @@ export default {
   },
   created() {
     console.log(process.env.VUE_APP_ARTIST)
+    console.log(process.env.VUE_APP_SONG)
+    // console.log(process.env.FAVORITE) // how to use without prefix 'VUE_APP_' ? // vue.config.js 에서만 접두어 없이 환경변수 사용 가능한 듯
     // eslint-disable-next-line
     console.log(myName)
     // eslint-disable-next-line
